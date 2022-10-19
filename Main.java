@@ -1,6 +1,9 @@
 public class Main {
     public static void main(String[] args) {
-        String input = "IX * X";
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter the string");
+        String input = scanner.nextLine();
+        scanner.close();
         calc(input);
         System.out.println(calc(input));
     }
