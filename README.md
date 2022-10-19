@@ -1,1 +1,2 @@
 # CalcForKata
+# Java education project
